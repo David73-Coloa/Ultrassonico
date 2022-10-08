@@ -18,7 +18,7 @@ float dist; // Declara uma variável do tipo float chamada dist
 
 void setup() {
   Serial.begin(9600); // Inicializa a comunicação serial na velocidade 9600
-  
+  ultra.Pinout(); // Pin mode nos pinos do ultrassônico
 }
 
 

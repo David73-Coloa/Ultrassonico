@@ -5,8 +5,10 @@
 D_ultrassonic::D_ultrassonic(int pinTrigger,int pinEcho){
     this -> trigger = pinTrigger;
     this -> echo = pinEcho;
-    pinMode(echo,INPUT);
-    pinMode(trigger,OUTPUT);
+}
+void D_ultrassonic::Pinout() {
+   pinMode(echo,INPUT);
+   pinMode(trigger,OUTPUT);
    
 }
 

@@ -8,7 +8,7 @@ public:
     D_ultrassonic(int pinTrigger,int pinEcho);
     float ReturnDistanceInCm();
     float ReturnDistanceInMeter();
-    
+	void  Pinout();
 
 private:
     float distance, kp = 0.017;
