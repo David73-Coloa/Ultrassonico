@@ -1,6 +1,6 @@
 /*
 
-    Autor: David luighy Sardinha Mendes
+    Autor: davidColoa
     Outubro de 2021
     Feito para utilizar o sensor ultrassonico
 */

@@ -1,7 +1,5 @@
 #include <D_ultrassonic.h>
 
-
-
 D_ultrassonic::D_ultrassonic(int pinTrigger,int pinEcho){
     this -> trigger = pinTrigger;
     this -> echo = pinEcho;
